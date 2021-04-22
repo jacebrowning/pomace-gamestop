@@ -51,7 +51,7 @@ actions:
       - mode: css
         value: .add-to-cart
         index: 0
-        uses: 1
+        uses: 2
   - verb: click
     name: view_cart
     locators:
