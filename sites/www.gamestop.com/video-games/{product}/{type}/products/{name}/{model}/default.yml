@@ -1,0 +1,89 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: click
+    name: add_to_cart
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Add To Cart
+        index: 0
+        uses: -1
+      - mode: text
+        value: Add to cart
+        index: 0
+        uses: -1
+      - mode: text
+        value: add to cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: Add To Cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: Add to cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: add to cart
+        index: 0
+        uses: -1
+      - mode: css
+        value: .add-to-cart
+        index: 0
+        uses: 1
+  - verb: click
+    name: view_cart
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: View Cart
+        index: 0
+        uses: -1
+      - mode: text
+        value: View cart
+        index: 0
+        uses: -1
+      - mode: text
+        value: view cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: View Cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: View cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: view cart
+        index: 0
+        uses: -1
+      - mode: css
+        value: .view-cart-button
+        index: 0
+        uses: 2
