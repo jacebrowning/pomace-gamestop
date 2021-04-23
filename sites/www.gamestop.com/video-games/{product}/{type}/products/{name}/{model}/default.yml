@@ -5,10 +5,10 @@ locators:
       index: 0
       uses: 0
   exclusions:
-    - mode: ''
-      value: ''
+    - mode: id
+      value: addedToCartModal
       index: 0
-      uses: 0
+      uses: 1
 actions:
   - verb: ''
     name: ''
@@ -51,39 +51,4 @@ actions:
       - mode: css
         value: .add-to-cart
         index: 0
-        uses: 2
-  - verb: click
-    name: view_cart
-    locators:
-      - mode: ''
-        value: ''
-        index: 0
-        uses: 0
-      - mode: text
-        value: View Cart
-        index: 0
-        uses: -1
-      - mode: text
-        value: View cart
-        index: 0
-        uses: -1
-      - mode: text
-        value: view cart
-        index: 0
-        uses: -1
-      - mode: value
-        value: View Cart
-        index: 0
-        uses: -1
-      - mode: value
-        value: View cart
-        index: 0
-        uses: -1
-      - mode: value
-        value: view cart
-        index: 0
-        uses: -1
-      - mode: css
-        value: .view-cart-button
-        index: 0
-        uses: 2
+        uses: 4

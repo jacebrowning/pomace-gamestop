@@ -1,9 +1,9 @@
 locators:
   inclusions:
-    - mode: ''
-      value: ''
+    - mode: id
+      value: addedToCartModal
       index: 0
-      uses: 0
+      uses: 3
   exclusions:
     - mode: ''
       value: ''
@@ -17,42 +17,38 @@ actions:
         value: ''
         index: 0
         uses: 0
-  - verb: fill
-    name: email
+  - verb: click
+    name: view_cart
     locators:
       - mode: ''
         value: ''
         index: 0
         uses: 0
-      - mode: name
-        value: email
+      - mode: text
+        value: View Cart
         index: 0
         uses: -1
-      - mode: name
-        value: email
+      - mode: text
+        value: View cart
         index: 0
         uses: -1
-      - mode: id
-        value: email
+      - mode: text
+        value: view cart
         index: 0
         uses: -1
-      - mode: id
-        value: email
+      - mode: value
+        value: View Cart
         index: 0
         uses: -1
-      - mode: aria-label
-        value: Email
+      - mode: value
+        value: View cart
+        index: 0
+        uses: -1
+      - mode: value
+        value: view cart
         index: 0
         uses: -1
       - mode: css
-        value: '[placeholder="Email"]'
+        value: .view-cart-button
         index: 0
-        uses: -1
-      - mode: id
-        value: Email
-        index: 0
-        uses: -1
-      - mode: id
-        value: login-form-email
-        index: 0
-        uses: 2
+        uses: 4
