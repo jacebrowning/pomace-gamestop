@@ -8,7 +8,7 @@ locators:
     - mode: id
       value: addedToCartModal
       index: 0
-      uses: 1
+      uses: 2
 actions:
   - verb: ''
     name: ''
@@ -51,4 +51,4 @@ actions:
       - mode: css
         value: .add-to-cart
         index: 0
-        uses: 4
+        uses: 9

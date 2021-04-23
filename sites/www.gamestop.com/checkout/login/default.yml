@@ -56,3 +56,7 @@ actions:
         value: login-form-email
         index: 0
         uses: 2
+      - mode: name
+        value: loginEmail
+        index: 0
+        uses: 0
