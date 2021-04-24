@@ -55,7 +55,7 @@ actions:
       - mode: id
         value: login-form-email
         index: 0
-        uses: 2
+        uses: 4
       - mode: name
         value: loginEmail
         index: 0
