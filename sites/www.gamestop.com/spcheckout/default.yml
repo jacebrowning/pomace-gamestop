@@ -1,0 +1,143 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: first_name
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: first_name
+        index: 0
+        uses: -1
+      - mode: name
+        value: first-name
+        index: 0
+        uses: -1
+      - mode: id
+        value: first_name
+        index: 0
+        uses: -1
+      - mode: id
+        value: first-name
+        index: 0
+        uses: -1
+      - mode: aria-label
+        value: First Name
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[placeholder="First Name"]'
+        index: 0
+        uses: -1
+      - mode: id
+        value: FirstName
+        index: 0
+        uses: -1
+      - mode: id
+        value: shippingFirstName
+        index: 0
+        uses: 4
+  - verb: fill
+    name: last_name
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: last_name
+        index: 0
+        uses: -1
+      - mode: name
+        value: last-name
+        index: 0
+        uses: -1
+      - mode: id
+        value: last_name
+        index: 0
+        uses: -1
+      - mode: id
+        value: last-name
+        index: 0
+        uses: -1
+      - mode: aria-label
+        value: Last Name
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[placeholder="Last Name"]'
+        index: 0
+        uses: -1
+      - mode: id
+        value: LastName
+        index: 0
+        uses: -1
+      - mode: id
+        value: shippingLastName
+        index: 0
+        uses: 4
+  - verb: fill
+    name: street_address
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: street_address
+        index: 0
+        uses: -1
+      - mode: name
+        value: street-address
+        index: 0
+        uses: -1
+      - mode: id
+        value: street_address
+        index: 0
+        uses: -1
+      - mode: id
+        value: street-address
+        index: 0
+        uses: -1
+      - mode: aria-label
+        value: Street Address
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[placeholder="Street Address"]'
+        index: 0
+        uses: -1
+      - mode: id
+        value: StreetAddress
+        index: 0
+        uses: -1
+      - mode: id
+        value: shippingAddressOne
+        index: 0
+        uses: 2
+  - verb: type
+    name: tab
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0

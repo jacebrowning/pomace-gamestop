@@ -55,8 +55,47 @@ actions:
       - mode: id
         value: login-form-email
         index: 0
-        uses: 4
+        uses: 6
       - mode: name
         value: loginEmail
         index: 0
         uses: 0
+  - verb: click
+    name: guest_checkout
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Guest Checkout
+        index: 0
+        uses: -1
+      - mode: text
+        value: Guest checkout
+        index: 0
+        uses: -1
+      - mode: text
+        value: guest checkout
+        index: 0
+        uses: -1
+      - mode: value
+        value: Guest Checkout
+        index: 0
+        uses: -1
+      - mode: value
+        value: Guest checkout
+        index: 0
+        uses: -1
+      - mode: value
+        value: guest checkout
+        index: 0
+        uses: -1
+      - mode: css
+        value: .checkout-ast-guest
+        index: 0
+        uses: -1
+      - mode: css
+        value: .checkout-as-guest
+        index: 0
+        uses: 3

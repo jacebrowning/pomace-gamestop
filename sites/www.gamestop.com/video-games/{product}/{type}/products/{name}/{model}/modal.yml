@@ -3,7 +3,7 @@ locators:
     - mode: id
       value: addedToCartModal
       index: 0
-      uses: 5
+      uses: 8
   exclusions:
     - mode: ''
       value: ''
@@ -51,4 +51,4 @@ actions:
       - mode: css
         value: .view-cart-button
         index: 0
-        uses: 6
+        uses: 9

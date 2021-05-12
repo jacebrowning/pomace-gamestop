@@ -15,5 +15,12 @@ page = page.click_proceed_to_checkout(delay=2)
 
 page.fill_email(settings.email)
 
+page = page.click_guest_checkout()
+
+person = pomace.fake.person
+page.fill_first_name(person.first_name)
+page.fill_last_name(person.last_name)
+page.fill_street_address(person.street_address)
+
 pomace.log.warn("Starting debugger")
 breakpoint()
