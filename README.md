@@ -21,5 +21,5 @@ pipx run pomace run https://www.gamestop.com/video-games/xbox-one/games/products
 # Scripted
 
 ```
-pipx run --spec=pomace==0.8b6 pomace exec script.py
+pipx run pomace exec script.py
 ```
