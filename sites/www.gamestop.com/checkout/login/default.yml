@@ -55,7 +55,7 @@ actions:
       - mode: id
         value: login-form-email
         index: 0
-        uses: 6
+        uses: 8
       - mode: name
         value: loginEmail
         index: 0
@@ -98,4 +98,4 @@ actions:
       - mode: css
         value: .checkout-as-guest
         index: 0
-        uses: 3
+        uses: 5

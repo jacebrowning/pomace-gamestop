@@ -21,6 +21,7 @@ person = pomace.fake.person
 page.fill_first_name(person.first_name)
 page.fill_last_name(person.last_name)
 page.fill_street_address(person.street_address)
+page.type_tab()
 
 pomace.log.warn("Starting debugger")
 breakpoint()

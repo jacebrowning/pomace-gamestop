@@ -55,7 +55,7 @@ actions:
       - mode: id
         value: shippingFirstName
         index: 0
-        uses: 4
+        uses: 6
   - verb: fill
     name: last_name
     locators:
@@ -94,7 +94,7 @@ actions:
       - mode: id
         value: shippingLastName
         index: 0
-        uses: 4
+        uses: 6
   - verb: fill
     name: street_address
     locators:
@@ -133,7 +133,7 @@ actions:
       - mode: id
         value: shippingAddressOne
         index: 0
-        uses: 2
+        uses: 4
   - verb: type
     name: tab
     locators:
